@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-width: none;
+    max-width: 1224px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+.box-principal{
+    width: 1224px;
+    height: 820px;
+    background-color: #ffff;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    flex: 1;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;
+    font-family: 'Hero new';
+    font-weight: 400;
+    margin: 0 14px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color:  #FF7120;
+}
+
+.icons{
+    height: 24px;
+}
+
+.box-buttons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.notifications {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 13px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 167px;
+}
+
+
+.botao-login {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: #023047;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+} 
+
+.title-detal{
+    font-family: 'rubik';
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.loc_box1{
+    margin-top: 12px;
+}
+
+.end_box1 {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 20.4px;
+    font-weight: 500;
+    margin-top: -43px;
+    margin-left: 55px;
+}
+
+.horario-abrir{
+    background-color: #11aa3c;
+    width: 82px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 28px;
+
+}
+
+.horario-fechar{
+    background-color: #a1a0a0;
+    width: 82px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 28px;
+
+}
+
+.box-horario {
+    display: flex; 
+    gap: 30px;
+    margin-top: 5px;
+    align-items: center; 
+}
+
+.delivery{
+    color: #FF2D55;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 20.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -178px;
+    margin-left: 1085px;
+}
+
+.linha{
+    margin-top: 175px;
+}
+
+.title-menu{
+    font-family: 'rubik';
+    font-weight: 700;
+    line-height: 55.72px;
+    font-size: 33.43px;
+    margin-top: 27px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 60px ;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 19px;
+    font-weight: 22.6px;
+    align-items: center;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.menu img{
+    height: 27px;
+    width: 27px;
+
+}
+.menu .active-detal{
+    background-color: #023047;
+    color: #ffff;
+    width: 150px;
+    height: 40px;
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img{
+        background-color: #ffff;
+        border-radius: 50px;
+
+    }
+
+}
+
+.menu a:hover{
+    background-color: #023047;
+    color: #ffff;
+    width: 150px;
+    height: 40px;
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img{
+        background-color: #ffff;
+        border-radius: 50px;
+
+    }
+
+}
+
+.pag2{
+    margin-top: 60px;
+}
+.size-6{
+    width: 18.8px;
+    height: 18.8px;
+}
+.navegacao{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    gap: 12px;
+}
+
+.button-left{
+    background-color: #d1cdcd;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button-right{
+    background-color: #023047;
+    color: #ffff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
