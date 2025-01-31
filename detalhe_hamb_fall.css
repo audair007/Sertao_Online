@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-width: none;
+    max-width: 1224px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+.box-principal{
+    width: 1224px;
+    height: 820px;
+    background-color: #ffff;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    flex: 1;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;
+    font-family: 'Hero new';
+    font-weight: 400;
+    margin: 0 14px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color:  #FF7120;
+}
+
+.icons{
+    height: 24px;
+}
+
+.box-buttons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.notifications {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 13px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 167px;
+}
+
+
+.botao-login {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: #023047;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+} 
+
+.title-detal{
+    font-family: 'rubik';
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.loc_box1{
+    margin-top: 12px;
+}
+
+.end_box1 {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 20.4px;
+    font-weight: 500;
+    margin-top: -43px;
+    margin-left: 55px;
+}
+
+.horario-abrir{
+    background-color: #11aa3c;
+    width: 82px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 28px;
+
+}
+
+.horario-fechar{
+    background-color: #a1a0a0;
+    width: 82px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 20.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 28px;
+
+}
+
+.box-horario {
+    display: flex; 
+    gap: 30px;
+    margin-top: 5px;
+    align-items: center; 
+}
+
+.delivery{
+    color: #FF2D55;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 20.4px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -178px;
+    margin-left: 1085px;
+}
+
+.linha{
+    margin-top: 175px;
+}
+
+.title-menu{
+    font-family: 'rubik';
+    font-weight: 700;
+    line-height: 55.72px;
+    font-size: 33.43px;
+    margin-top: 27px;
+}
+
+.sidebar{
+    width: 450px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    border-color: #023047;
+}
+
+.sidebar::-webkit-scrollbar-track{
+    background: #023047;
+    border-radius: 10px;
+    width: 10px;
+}
+
+.menu{
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 22.7px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#333333;
+    display: flex;
+    align-items: center;
+    margin: 55px 0;
+}
+
+.menu .active-detal{
+    background-color: #023047;
+    border-radius: 50px;
+    padding: 25px;
+    width: 150px;
+}
+
+.burguer {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.imgburguer {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+}
+
+.menuimg {
+    
+    width: 65%;
+    transform: translateX(65%)
+    translateY(-150%)
+}
+
+.menuseta {
+    
+    translate: 920%;
+    transform: translateY(-1100%);
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
